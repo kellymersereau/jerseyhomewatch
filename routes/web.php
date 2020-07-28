@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'PagesController@home');
+Route::get('/services', 'PagesController@services');
+Route::get('/testimonials', 'PagesController@testimonials');
+Route::get('/faq', 'PagesController@faq');
+Route::get('/about', 'PagesController@about');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/privacy-policy', 'PagesController@privacy');
+Route::get('/terms-of-use', 'PagesController@terms');

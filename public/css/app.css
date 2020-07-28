@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("/fonts/OpenSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBoldItalic";
+  src: url("/fonts/OpenSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("/fonts/Anton-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  line-height: 1.4;
+  color: #1D3557;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.25rem;
+  line-height: 1.4;
+  color: #1D3557;
+}
+
+h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #1D3557;
+}
+
+p {
+  font-family: "OpenSans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #383838;
+}
+
+a {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #E63946;
+  text-decoration: none;
+  transition: 0.25s all ease-in;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
