@@ -14,13 +14,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "home";
         $canonicalUrl = "https://www.jerseyhomewatch.co";
+        $home_active = true;
         
         return view('pages.home', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'home_active'=>$home_active
         ]);
     }
     
@@ -31,13 +33,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "services";
         $canonicalUrl = "https://www.jerseyhomewatch.co/services";
+        $services_active = true;
         
         return view('pages.services', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'services_active'=>$services_active
         ]);
     }
     
@@ -48,13 +52,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "testimonials";
         $canonicalUrl = "https://www.jerseyhomewatch.co/testimonials";
+        $testimonials_active = true;
         
         return view('pages.testimonials', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'testimonials_active'=>$testimonials_active
         ]);
     }
     
@@ -65,13 +71,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "faq";
         $canonicalUrl = "https://www.jerseyhomewatch.co/faq";
+        $faq_active = true;
         
         return view('pages.faq', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'faq_active'=>$faq_active
         ]);
     }
     
@@ -82,13 +90,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "about";
         $canonicalUrl = "https://www.jerseyhomewatch.co/about";
+        $about_active = true;
         
         return view('pages.about', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'about_active'=>$about_active
         ]);
     }
     
@@ -99,13 +109,15 @@ class PagesController extends Controller
         $seo_keywords = "";
         $body_class = "home";
         $canonicalUrl = "https://www.jerseyhomewatch.co/contact";
+        $contact_active = true;
         
         return view('pages.contact', [
             'title'=>$title,
             'seo_description'=>$seo_description,
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
+            'canonicalUrl'=>$canonicalUrl,
+            'contact_active'=>$contact_active
         ]);
     }
     

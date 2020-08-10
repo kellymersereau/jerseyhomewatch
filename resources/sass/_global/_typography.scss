@@ -30,8 +30,9 @@ a {
     line-height: 1.4;
     color: $red;
     text-decoration: none;
-    transition: 0.25s all ease-in;
+    transition: 0.25s all ease-in-out;
     &:hover {
         text-decoration: underline;
+        color: $redHover;
     }
 }

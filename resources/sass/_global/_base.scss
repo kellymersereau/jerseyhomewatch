@@ -1,0 +1,17 @@
+* > svg {
+    transform-origin: 50% 50% 0;
+}
+body {
+    line-height: 1.4;
+    font-family: $regular;
+    color: $darkGrey;
+    position: relative;
+    display: block;
+    background: $white;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    cursor: default;
+    margin: 0;
+}
