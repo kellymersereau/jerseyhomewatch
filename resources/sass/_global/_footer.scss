@@ -1,0 +1,156 @@
+footer {
+    background: $lightBlue;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px 20px 10px;
+    box-sizing: border-box;
+    .flex-footer-wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        .copy-wrapper {
+            .links-wrapper {
+                padding-bottom: 20px;
+                a {
+                    font-size: 0.75rem;
+                    line-height: 1.2;
+                    color: $darkGrey;
+                    border-bottom: 1px solid $darkGrey;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    &.active {
+                        color: $red;
+                        border-bottom: 1px solid $red;
+                        font-family: $bold;
+                    }
+                }
+                .link-break {
+                    color: $darkBlue;
+                    padding: 0 5px;
+                    display: inline-block;
+                }
+            }
+            p {
+                color: $darkGrey;
+                font-size: 0.75rem;
+                line-height: 1.4;
+                padding-bottom: 20px;
+                margin: 0;
+                &:last-of-type {
+                    padding-bottom: 0;
+                }
+                a {
+                    font-size: 0.75rem;
+                    line-height: 1.2;
+                    color: $darkGrey;
+                    border-bottom: 1px solid $darkGrey;
+                    display: inline-block;
+                    font-family: $regular;
+                }
+            }
+        }
+        .logo-wrapper {
+            flex: 0 0 200px;
+            max-width: 200px;
+            box-sizing: border-box;
+            a {
+                box-sizing: border-box;
+                display: block;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+    .dev-signoff {
+        width: 100%;
+        display: block;
+        p {
+            padding: 30px 0 0;
+            margin: 0;
+            text-align: center;
+            color: $darkGrey;
+            font-size: 0.65rem;
+            line-height: 1.2;
+            a {
+                color: $darkGrey;
+                text-decoration: underline;
+                transition: 0.25s all ease-in-out;
+                font-size: 0.65rem;
+                line-height: 1.2;
+                &:hover {
+                    color: $darkGrey;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $mobile) {
+    footer {
+        .flex-footer-wrapper {
+            max-width: 100%;
+            flex-flow: row wrap;
+            align-items: center;
+            align-content: center;
+            .copy-wrapper {
+                flex: 0 0 100%;
+                order: 2;
+                .links-wrapper {
+                    padding-top: 20px;
+                    a {
+                        text-align: center;
+                        display: block;
+                        border-bottom: none;
+                        text-decoration: underline;
+                        padding-bottom: 10px;
+                        font-size: 0.85rem;
+                        &.active {
+                            border-bottom: none;
+                            text-decoration: underline;
+                        }
+                    }
+                    .link-break {
+                        display: none;
+                    }
+                }
+                p {
+                    font-size: 0.65rem;
+                    text-align: center;
+                    &:last-of-type {
+                        padding-bottom: 0;
+                    }
+                    a {
+                        font-size: 0.65rem;
+                    }
+                }
+            }
+            .logo-wrapper {
+                order: 1;
+                flex: 0 0 100%;
+                max-width: 100%;
+                a {
+                    max-width: 200px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .dev-signoff {
+            p {
+                padding: 20px 0 0;
+                font-size: 0.55rem;
+                a {
+                    font-size: 0.55rem;
+                }
+            }
+        }
+    }
+}

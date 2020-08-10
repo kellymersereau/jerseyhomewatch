@@ -3,18 +3,28 @@ h1 {
     font-size: 3rem;
     line-height: 1.4;
     color: $darkBlue;
+    margin: 0;
+    letter-spacing: 1px;
 }
 h2 {
     font-family: $header;
     font-size: 2.25rem;
     line-height: 1.4;
     color: $darkBlue;
+    margin: 0;
+    letter-spacing: 1px;
 }
 h3 {
     font-family: $header;
     font-size: 1.5rem;
     line-height: 1.4;
-    color: $darkBlue;
+    color: $blue;
+    margin: 0;
+    letter-spacing: 1px;
+    &.underbrow {
+        font-family: $italic;
+        color: $darkGrey;
+    }
 }
 
 p {
@@ -22,6 +32,7 @@ p {
     font-size: 1rem;
     line-height: 1.4;
     color: $darkGrey;
+    margin: 0;
 }
 
 a {
@@ -35,4 +46,39 @@ a {
         text-decoration: underline;
         color: $redHover;
     }
+}
+
+.darkBlue {
+    color: $darkBlue !important;
+}
+.lightBlue {
+    color: $lightBlue !important;
+}
+.blue {
+    color: $blue !important;
+}
+.red {
+    color: $red !important;
+}
+
+.center {
+    text-align: center !important;
+}
+.bold {
+    font-family: $bold !important;
+}
+.bold-italic {
+    font-family: $semiBoldItalic !important;
+}
+.italic {
+    font-family: $italic !important;
+}
+.padding-bottom {
+    padding-bottom: 20px !important;
+}
+.less-padding-bottom {
+    padding-bottom: 10px !important;
+}
+.more-padding-bottom {
+    padding-bottom: 40px !important;
 }

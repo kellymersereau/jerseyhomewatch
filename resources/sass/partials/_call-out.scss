@@ -1,0 +1,73 @@
+.call-out-wrapper {
+    width: 75%;
+    max-width: 100%;
+    margin: 0 auto;
+    p {
+        //font-size: 1.25rem;
+        font-family: $italic;
+        color: $darkGrey;
+        text-align: center;
+    }
+}
+.cta-wrapper {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    .flex-wrapper {
+        max-width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: $lightestGrey;
+        p {
+            &.headline {
+                font-family: $header;
+                color: $darkBlue;
+                font-size: 2rem;
+                letter-spacing: 1px;
+                text-align: center;
+                flex: 0 0 100%;
+                padding-bottom: 10px;
+            }
+        }
+        .btn-wrapper {
+            padding: 10px 0;
+            text-align: center;
+            flex: 0 0 100%;
+            a {
+                display: inline-flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-content: center;
+                align-items: center;
+                margin: 20px auto 10px;
+                padding:  15px 30px;
+                border: none;
+                width: auto;
+                box-sizing: border-box;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+                background: $red;
+                box-shadow: 2px 4px 0 0 $redHover;
+                transition: box-shadow .1s;
+                text-decoration: none;
+                color: $white;
+                font-size: 1.25rem;
+                font-family: $bold;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                &:hover {
+                    box-shadow: inset 4px 4px 0 0 $red;
+                    transform: translateY(4px) translateX(2px);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

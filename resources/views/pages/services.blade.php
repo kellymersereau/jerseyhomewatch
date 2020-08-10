@@ -1,7 +1,9 @@
 @extends('layout.layout')
 
 @section('content')
-    <h1>
-        SERVICES PAGE
-    </h1>
+    <div class="hero">
+        <h1 class="center">
+            Services
+        </h1>
+    </div>
 @endsection

@@ -56,6 +56,7 @@ nav {
                     color: $darkGrey;
                     font-family: $bold;
                     border-bottom: 2px solid $white;
+                    text-transform: uppercase;
                     &:hover {
                         color: $redHover;
                         border-bottom: 2px solid $redHover;
@@ -90,7 +91,7 @@ nav {
                     }
                     svg {
                         path {
-                            fill: #bdbdbd;
+                            fill: $lightGrey;
                             transition: 0.25s all ease-in-out;
                         }
                     }
@@ -169,6 +170,7 @@ nav {
                         padding: 5px 0;
                         box-sizing: border-box;
                         border-bottom: none;
+                        text-transform: uppercase;
                         &.active {
                             color: $darkBlue;
                             border-bottom: none;

@@ -1,7 +1,9 @@
 @extends('layout.layout')
 
 @section('content')
-    <h1>
-        PRIVACY POLICY PAGE
-    </h1>
+    <div class="hero">
+        <h1 class="center">
+            Privacy Policy
+        </h1>
+    </div>
 @endsection
