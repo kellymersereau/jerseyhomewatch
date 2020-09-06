@@ -1,5 +1,5 @@
 footer {
-    background: $lightBlue;
+    background: $lightestGrey;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -46,6 +46,9 @@ footer {
                 &:last-of-type {
                     padding-bottom: 0;
                 }
+                &.no-padding-bottom {
+                    padding-bottom: 0;
+                }
                 a {
                     font-size: 0.75rem;
                     line-height: 1.2;
@@ -53,6 +56,10 @@ footer {
                     border-bottom: 1px solid $darkGrey;
                     display: inline-block;
                     font-family: $regular;
+                    &.footer-link {
+                        color: $darkGrey;
+                        border-bottom: none;
+                    }
                 }
             }
         }
@@ -63,6 +70,9 @@ footer {
             a {
                 box-sizing: border-box;
                 display: block;
+                &.home-link {
+                    padding-bottom: 20px;
+                }
                 img {
                     width: 100%;
                     height: auto;

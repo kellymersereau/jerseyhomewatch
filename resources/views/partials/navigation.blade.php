@@ -32,11 +32,11 @@
                 <a href="/services" title="Services" class="nav-link @if( ! empty($services_active) && $services_active === true) active @endif">
                     Services
                 </a>
-                <a href="/testimonials" title="Testimonials" class="nav-link @if( ! empty($testimonials_active) && $testimonials_active === true)
-                    active
-@endif">
-                    Testimonials
-                </a>
+{{--                <a href="/testimonials" title="Testimonials" class="nav-link @if( ! empty($testimonials_active) && $testimonials_active === true)--}}
+{{--                    active--}}
+{{--@endif">--}}
+{{--                    Testimonials--}}
+{{--                </a>--}}
                 <a href="/faq" title="Frequently Asked Questions" class="nav-link @if( ! empty($faq_active) && $faq_active === true) active @endif">
                     FAQ
                 </a>

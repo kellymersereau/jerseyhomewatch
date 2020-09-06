@@ -1,0 +1,20 @@
+.copy-wrapper {
+    &.blue-bg {
+        background-color: $blue;
+        width: 100%;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        p {
+            color: $white;
+            &.headline {
+                font-size: 1.75rem;
+                font-family: $bold;
+                text-align: center;
+            }
+        }
+        h2,
+        h3 {
+            color: white;
+        }
+    }
+}

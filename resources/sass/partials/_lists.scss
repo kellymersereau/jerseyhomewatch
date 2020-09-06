@@ -1,0 +1,30 @@
+ul {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    display: table;
+    li{
+        padding: 0 0 10px;
+        display: table;
+        box-sizing: border-box;
+        &:before {
+            content: '•';
+            display: table-cell;
+            vertical-align: top;
+            font-size: 1.25rem;
+            line-height: 1;
+            color: $blue;
+            padding: 0 10px 0 0;
+        }
+    }
+    &.check-mark-list {
+        li {
+            &:before {
+                content: url("/img/check.svg");
+                height: 20px;
+                width: 20px;
+                padding: 3px 10px 0 0;
+            }
+        }
+    }
+}

@@ -25,7 +25,8 @@
     
     @include('partials.navigation')
     
-    <div data-role="content" class="content-wrapper">
+    <div data-role="content" class="content-wrapper @if(! empty($full_width) && $full_width === true)
+        full-width @endif">
         @yield('content')
     </div>
     

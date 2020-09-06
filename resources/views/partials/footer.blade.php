@@ -20,14 +20,14 @@
                 <p class="link-break">
                     &bull;
                 </p>
-                <a href="/testimonials" title="Testimonials" class="nav-link @if( ! empty($testimonials_active) && $testimonials_active === true)
-                    active
-@endif">
-                    Testimonials
-                </a>
-                <p class="link-break">
-                    &bull;
-                </p>
+{{--                <a href="/testimonials" title="Testimonials" class="nav-link @if( ! empty($testimonials_active) && $testimonials_active === true)--}}
+{{--                    active--}}
+{{--@endif">--}}
+{{--                    Testimonials--}}
+{{--                </a>--}}
+{{--                <p class="link-break">--}}
+{{--                    &bull;--}}
+{{--                </p>--}}
                 <a href="/faq" title="Frequently Asked Questions" class="nav-link @if( ! empty($faq_active) && $faq_active === true) active @endif">
                     FAQ
                 </a>
@@ -39,16 +39,33 @@
                 </a>
             </div>
             <p>
-                View our <a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a> and <a href="/terms-of-use" title="Terms of
-                Use">Terms of Use</a>.
+                View our <a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a>.
+            </p>
+            <p class="bold no-padding-bottom">
+                New Jersey Home Watch
+            </p>
+            <p class="no-padding-bottom">
+                PO Box 333
+            </p>
+            <p class="no-padding-bottom">
+                Howell, NJ 07731
+            </p>
+            <p class="no-padding-bottom">
+                <a href="tel:+17329153506" class="footer-link">(732) 915-3506</a>
+            </p>
+            <p>
+                <a href="mailto:newjerseyhomewatch@gmail.com" class="footer-link">newjerseyhomewatch@gmail.com</a>
             </p>
             <p>
                 &copy; 2020 New Jersey Home Watch, LLC. All rights reserved.
             </p>
         </div>
         <div class="logo-wrapper">
-            <a href="/" title="Home">
+            <a href="/" title="Home" class="home-link">
                 <img src="/img/logo.jpg" title="New Jersey Home Watch logo" width="300">
+            </a>
+            <a href="https://www.nationalhomewatchassociation.org" target="_blank">
+                <img src="http://www.nationalhomewatchassociation.org/logos/nhwa-member-medium.png" border="0">
             </a>
         </div>
     </div>

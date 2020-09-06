@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('content')
-    <div class="hero">
+    <div class="hero home-hero">
         <h1 class="center">
             New Jersey Home Watch
         </h1>
@@ -9,7 +9,7 @@
             Providing peace of mind while you are away
         </h3>
     </div>
-    <div class="copy-wrapper">
+    <div class="copy-wrapper max-width">
         <p class="padding-bottom">
             Going south for the Winter? Going on a long trip? Are you leaving your coastal home for the winter? Do you own a second home? Don't
             worry about what might happen to your house while you are gone.  We know any unexpected issue at your home can be costly if not
@@ -19,7 +19,7 @@
         <p class="padding-bottom">
             You no longer need to rely on your neighbors or friends to get your mail, water your plants, pick up your packages, or supervise access to your property for contractors or repairmen. We can do that, too! We are fully licensed, insured, bonded, and accredited with the National Home Watch Association.
         </p>
-        <p class="bold-italic padding-bottom">
+        <p class="semibold-italic padding-bottom center">
             Home Watch is a visual inspection of a home or property, looking for obvious issues. 
         </p>
     </div>

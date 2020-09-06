@@ -2,6 +2,7 @@
     width: 75%;
     max-width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
     p {
         //font-size: 1.25rem;
         font-family: $italic;
@@ -13,6 +14,10 @@
     width: 100%;
     padding: 20px;
     margin-top: 20px;
+    box-sizing: border-box;
+    @media(max-width: $mobile){
+        padding: 20px 0 0;
+    }
     .flex-wrapper {
         max-width: 100%;
         width: 80%;
@@ -24,6 +29,10 @@
         align-items: center;
         padding: 20px;
         background-color: $lightestGrey;
+        box-sizing: border-box;
+        @media(max-width: $mobile){
+            width: 100%;
+        }
         p {
             &.headline {
                 font-family: $header;
@@ -33,6 +42,9 @@
                 text-align: center;
                 flex: 0 0 100%;
                 padding-bottom: 10px;
+                @media(max-width: $mobile){
+                    font-size: 1.5rem;
+                }
             }
         }
         .btn-wrapper {

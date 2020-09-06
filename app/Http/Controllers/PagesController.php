@@ -15,6 +15,7 @@ class PagesController extends Controller
         $body_class = "home";
         $canonicalUrl = "https://www.jerseyhomewatch.co";
         $home_active = true;
+        $full_width = true;
         
         return view('pages.home', [
             'title'=>$title,
@@ -22,7 +23,8 @@ class PagesController extends Controller
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
             'canonicalUrl'=>$canonicalUrl,
-            'home_active'=>$home_active
+            'home_active'=>$home_active,
+            'full_width'=>$full_width
         ]);
     }
     
@@ -34,6 +36,7 @@ class PagesController extends Controller
         $body_class = "services";
         $canonicalUrl = "https://www.jerseyhomewatch.co/services";
         $services_active = true;
+        $full_width = true;
         
         return view('pages.services', [
             'title'=>$title,
@@ -41,7 +44,8 @@ class PagesController extends Controller
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
             'canonicalUrl'=>$canonicalUrl,
-            'services_active'=>$services_active
+            'services_active'=>$services_active,
+            'full_width'=>$full_width
         ]);
     }
     
@@ -107,9 +111,62 @@ class PagesController extends Controller
         $title = "Contact Us";
         $seo_description = "";
         $seo_keywords = "";
-        $body_class = "home";
+        $body_class = "contact";
         $canonicalUrl = "https://www.jerseyhomewatch.co/contact";
         $contact_active = true;
+        $states = [
+            ['state'=>'Alabama', 'val'=>'AL'],
+            ['state'=>'Alaska', 'val'=>'AK'],
+            ['state'=>'Arizona', 'val'=>'AZ'],
+            ['state'=>'Arkansas', 'val'=>'AR'],
+            ['state'=>'California', 'val'=>'CA'],
+            ['state'=>'Colorado', 'val'=>'CO'],
+            ['state'=>'Connecticut', 'val'=>'CT'],
+            ['state'=>'Delaware', 'val'=>'DE'],
+            ['state'=>'District of Columbia', 'val'=>'DC'],
+            ['state'=>'Florida', 'val'=>'FL'],
+            ['state'=>'Georgia', 'val'=>'GA'],
+            ['state'=>'Hawaii', 'val'=>'HI'],
+            ['state'=>'Idaho', 'val'=>'ID'],
+            ['state'=>'Illinois', 'val'=>'IL'],
+            ['state'=>'Indiana', 'val'=>'IN'],
+            ['state'=>'Iowa', 'val'=>'IA'],
+            ['state'=>'Kansas', 'val'=>'KS'],
+            ['state'=>'Kentucky', 'val'=>'KY'],
+            ['state'=>'Louisiana', 'val'=>'LA'],
+            ['state'=>'Maine', 'val'=>'ME'],
+            ['state'=>'Maryland', 'val'=>'MD'],
+            ['state'=>'Massachusetts', 'val'=>'MA'],
+            ['state'=>'Michigan', 'val'=>'MI'],
+            ['state'=>'Minnesota', 'val'=>'MN'],
+            ['state'=>'Mississippi', 'val'=>'MS'],
+            ['state'=>'Missouri', 'val'=>'MO'],
+            ['state'=>'Montana', 'val'=>'MT'],
+            ['state'=>'Nebraska', 'val'=>'NE'],
+            ['state'=>'Nevada', 'val'=>'NV'],
+            ['state'=>'New Hampshire', 'val'=>'NH'],
+            ['state'=>'New Jersey', 'val'=>'NJ'],
+            ['state'=>'New Mexico', 'val'=>'NM'],
+            ['state'=>'New York', 'val'=>'NY'],
+            ['state'=>'North Carolina', 'val'=>'NC'],
+            ['state'=>'North Dakota', 'val'=>'ND'],
+            ['state'=>'Ohio', 'val'=>'OH'],
+            ['state'=>'Oklahoma', 'val'=>'OK'],
+            ['state'=>'Oregon', 'val'=>'OR'],
+            ['state'=>'Pennsylvania', 'val'=>'PA'],
+            ['state'=>'Rhode Island', 'val'=>'RI'],
+            ['state'=>'South Carolina', 'val'=>'SC'],
+            ['state'=>'South Dakota', 'val'=>'SD'],
+            ['state'=>'Tennessee', 'val'=>'TN'],
+            ['state'=>'Texas', 'val'=>'TX'],
+            ['state'=>'Utah', 'val'=>'UT'],
+            ['state'=>'Vermont', 'val'=>'VT'],
+            ['state'=>'Virginia', 'val'=>'VA'],
+            ['state'=>'Washington', 'val'=>'WA'],
+            ['state'=>'West Virginia', 'val'=>'WV'],
+            ['state'=>'Wisconsin', 'val'=>'WI'],
+            ['state'=>'Wyoming', 'val'=>'WY']
+        ];
         
         return view('pages.contact', [
             'title'=>$title,
@@ -117,7 +174,8 @@ class PagesController extends Controller
             'seo_keywords'=>$seo_keywords,
             'body_class'=>$body_class,
             'canonicalUrl'=>$canonicalUrl,
-            'contact_active'=>$contact_active
+            'contact_active'=>$contact_active,
+            'states'=>$states
         ]);
     }
     
@@ -138,20 +196,4 @@ class PagesController extends Controller
         ]);
     }
     
-    public function terms(Request $request)
-    {
-        $title = "Terms of Use";
-        $seo_description = "";
-        $seo_keywords = "";
-        $body_class = "home";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/terms-of-use";
-        
-        return view('pages.terms', [
-            'title'=>$title,
-            'seo_description'=>$seo_description,
-            'seo_keywords'=>$seo_keywords,
-            'body_class'=>$body_class,
-            'canonicalUrl'=>$canonicalUrl
-        ]);
-    }
 }

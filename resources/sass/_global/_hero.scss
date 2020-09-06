@@ -1,3 +1,27 @@
 .hero {
     padding-bottom: 40px;
+    &.home-hero {
+        padding: 40px 0;
+        background-image: url("/img/house5.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 40px;
+        h3 {
+            flex: 0 0 100%;
+            line-height: 1.1;
+            padding-bottom: 40px;
+            color: $white;
+        }
+        h1 {
+            flex: 0 0 100%;
+            line-height: 1.1;
+            color: $red;
+        }
+    }
 }
