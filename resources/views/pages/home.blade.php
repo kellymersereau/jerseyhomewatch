@@ -20,7 +20,7 @@
             You no longer need to rely on your neighbors or friends to get your mail, water your plants, pick up your packages, or supervise access to your property for contractors or repairmen. We can do that, too! We are fully licensed, insured, bonded, and accredited with the National Home Watch Association.
         </p>
         <p class="semibold-italic padding-bottom center">
-            Home Watch is a visual inspection of a home or property, looking for obvious issues. 
+            Home Watch is defined as a visual inspection of a home or property, looking for obvious issues. 
         </p>
     </div>
     <div class="call-out-wrapper">

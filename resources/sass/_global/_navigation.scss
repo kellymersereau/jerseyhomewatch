@@ -89,10 +89,30 @@ nav {
                             }
                         }
                     }
-                    svg {
-                        path {
-                            fill: $lightGrey;
-                            transition: 0.25s all ease-in-out;
+                    &.phone-link {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: flex-end;
+                        align-content: center;
+                        align-items: center;
+                        font-size: 1.25rem;
+                        color: $lightGrey;
+                        transition: 0.25s all ease-in-out;
+                        padding-bottom: 20px;
+                        &:hover {
+                            color: $redHover;
+                            svg {
+                                path {
+                                    fill: $redHover;
+                                }
+                            }
+                        }
+                        svg {
+                            padding-right: 5px;
+                            path {
+                                transition: 0.25s all ease-in-out;
+                                fill: $lightGrey;
+                            }
                         }
                     }
                 }
@@ -152,7 +172,29 @@ nav {
                 overflow-y: scroll;
                 box-sizing: border-box;
                 .social-links {
-                    display: none;
+                    order: 2;
+                    justify-content: flex-start;
+                    a {
+                        &.phone-link {
+                            justify-content: flex-start;
+                            font-size: 1.75rem;
+                            color: $white;
+                            &:hover {
+                                color: $white;
+                                svg {
+                                    path {
+                                        fill: $white;
+                                    }
+                                }
+                            }
+                            svg {
+                                path {
+                                    fill: $white;
+                                }
+                            }
+                        }
+                    }
+                    
                 }
                 .main-nav {
                     order: 1;

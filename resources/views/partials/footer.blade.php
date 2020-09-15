@@ -38,10 +38,10 @@
                     Contact Us
                 </a>
             </div>
-            <p>
-                View our <a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a>.
-            </p>
-            <p class="bold no-padding-bottom">
+            <a href="https://facebook.com/NewJerseyHomeWatch" title="Facebook" target="_blank">
+                @include('svgs.facebook')
+            </a>
+            <p class="bold no-padding-bottom padding-top">
                 New Jersey Home Watch
             </p>
             <p class="no-padding-bottom">

@@ -25,16 +25,36 @@ footer {
                     border-bottom: 1px solid $darkGrey;
                     display: inline-block;
                     text-transform: uppercase;
+                    transition: 0.25s all ease-in-out;
                     &.active {
                         color: $red;
                         border-bottom: 1px solid $red;
                         font-family: $bold;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color: $red;
+                        border-bottom: 1px solid $red;
                     }
                 }
                 .link-break {
                     color: $darkBlue;
                     padding: 0 5px;
                     display: inline-block;
+                }
+            }
+            a {
+                svg {
+                    path {
+                        transition: 0.25s all ease-in-out;
+                    }
+                }
+                &:hover {
+                    svg {
+                        path {
+                            fill: $red;
+                        }
+                    }
                 }
             }
             p {
@@ -48,6 +68,9 @@ footer {
                 }
                 &.no-padding-bottom {
                     padding-bottom: 0;
+                }
+                &.padding-top {
+                    padding-top: 10px;
                 }
                 a {
                     font-size: 0.75rem;

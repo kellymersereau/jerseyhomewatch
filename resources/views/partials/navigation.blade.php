@@ -18,8 +18,8 @@
         </div>
         <div class="nav-wrapper">
             <div class="social-links">
-                <a href="https://facebook.com/newjerseyhomewatch" title="Facebook">
-                    @include('svgs.facebook')
+                <a href="tel:+17329153506" title="Contact us!" class="phone-link">
+                    @include('svgs.phone-icon') 732-915-3506
                 </a>
             </div>
             <div class="main-nav">

@@ -22,7 +22,11 @@
             Why do I need a Home Watch Service?
         </h3>
         <p class="more-padding-bottom">
-            Neighbors or friends may not be available to regularly care for you home. Also, if something happens while you are away, relationships can be damaged. And anything can happen while you are away. Break-ins, damage from storms, pipe damage resulting in water damage, pest infestation, the list is endless. We work with you directly to remedy any issues discovered.
+            Neighbors or friends may not be available to regularly care for you home. Also, if something happens while you are away, relationships
+            can be damaged. And anything <span class="italic">can happen</span> while you are away. Break-ins, damage from storms, pipe damage resulting
+            in
+                                               water damage,
+                                               pest infestation, the list is endless. We work with you directly to remedy any issues discovered.
         </p>
         
         <h3 class="less-padding-bottom">

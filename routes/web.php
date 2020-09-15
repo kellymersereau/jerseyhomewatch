@@ -20,3 +20,6 @@ Route::get('/faq', 'PagesController@faq');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/privacy-policy', 'PagesController@privacy');
+
+// POST ROUTE FOR CONTACT US FORM
+Route::post('/contact-submit', 'ContactFormController@saveForm');

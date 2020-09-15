@@ -362,9 +362,33 @@ nav .flex-nav-wrapper .nav-wrapper .social-links a:hover svg path {
   fill: #E63946;
 }
 
-nav .flex-nav-wrapper .nav-wrapper .social-links a svg path {
-  fill: #bdbdbd;
+nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #bdbdbd;
   transition: 0.25s all ease-in-out;
+  padding-bottom: 20px;
+}
+
+nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link:hover {
+  color: #E63946;
+}
+
+nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link:hover svg path {
+  fill: #E63946;
+}
+
+nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link svg {
+  padding-right: 5px;
+}
+
+nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link svg path {
+  transition: 0.25s all ease-in-out;
+  fill: #bdbdbd;
 }
 
 @media (max-width: 767px) {
@@ -425,7 +449,26 @@ nav .flex-nav-wrapper .nav-wrapper .social-links a svg path {
   }
 
   nav .flex-nav-wrapper .nav-wrapper .social-links {
-    display: none;
+    order: 2;
+    justify-content: flex-start;
+  }
+
+  nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link {
+    justify-content: flex-start;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+  }
+
+  nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link:hover {
+    color: #FFFFFF;
+  }
+
+  nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link:hover svg path {
+    fill: #FFFFFF;
+  }
+
+  nav .flex-nav-wrapper .nav-wrapper .social-links a.phone-link svg path {
+    fill: #FFFFFF;
   }
 
   nav .flex-nav-wrapper .nav-wrapper .main-nav {
@@ -510,6 +553,7 @@ footer .flex-footer-wrapper .copy-wrapper .links-wrapper a {
   border-bottom: 1px solid #383838;
   display: inline-block;
   text-transform: uppercase;
+  transition: 0.25s all ease-in-out;
 }
 
 footer .flex-footer-wrapper .copy-wrapper .links-wrapper a.active {
@@ -518,10 +562,24 @@ footer .flex-footer-wrapper .copy-wrapper .links-wrapper a.active {
   font-family: "OpenSans-Bold", sans-serif;
 }
 
+footer .flex-footer-wrapper .copy-wrapper .links-wrapper a:hover {
+  text-decoration: none;
+  color: #cc0001;
+  border-bottom: 1px solid #cc0001;
+}
+
 footer .flex-footer-wrapper .copy-wrapper .links-wrapper .link-break {
   color: #1D3557;
   padding: 0 5px;
   display: inline-block;
+}
+
+footer .flex-footer-wrapper .copy-wrapper a svg path {
+  transition: 0.25s all ease-in-out;
+}
+
+footer .flex-footer-wrapper .copy-wrapper a:hover svg path {
+  fill: #cc0001;
 }
 
 footer .flex-footer-wrapper .copy-wrapper p {
@@ -538,6 +596,10 @@ footer .flex-footer-wrapper .copy-wrapper p:last-of-type {
 
 footer .flex-footer-wrapper .copy-wrapper p.no-padding-bottom {
   padding-bottom: 0;
+}
+
+footer .flex-footer-wrapper .copy-wrapper p.padding-top {
+  padding-top: 10px;
 }
 
 footer .flex-footer-wrapper .copy-wrapper p a {
