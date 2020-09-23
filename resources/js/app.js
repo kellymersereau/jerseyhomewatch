@@ -172,8 +172,8 @@ contactForm = {
             contactForm.showFormSuccessCopy();
             
         }).fail(function ($data) {
-            // console.warn($data);
-            // console.log('error');
+            console.warn($data);
+            console.log('error');
             // $('body').addClass('form-error');
             // $("html, body").animate({ scrollTop: '380px' }, "slow");
         });

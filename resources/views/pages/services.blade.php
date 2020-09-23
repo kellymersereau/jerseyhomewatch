@@ -8,11 +8,8 @@
     </div>
     <div class="copy-wrapper max-width padding-bottom">
         <h3 class="center">
-            20 POINT SERVICE
+            SERVICES offered weekly or bi-weekly
         </h3>
-        <p class="underbrow center">
-            offered weekly, bi-weekly, or monthly
-        </p>
         <ul class="check-mark-list">
             <li>
                 Check perimeter of home for signs of storm damage, vandalism, theft or forced entry.
@@ -85,7 +82,7 @@
     </div>
     <div class="copy-wrapper max-width padding-bottom">
     
-        <img src="/img/house2.jpeg" class="float-left" height="400" width="533">
+        <img src="/img/INTERIOR4.jpg" class="float-left" height="281" width="500">
     
         <p class="padding-bottom">
             We offer and highly recommend 2 to 4 inspections per month. Too many things can happen in thirty days and will only compound an issue
@@ -98,11 +95,8 @@
     </div>
     <div class="copy-wrapper max-width">
         <h3 class="center">
-            TAILORED SERVICES*
+            CONCIERGE SERVICES
         </h3>
-        <p class="underbrow center">
-            Additional services that may be added to Service visits.
-        </p>
         <ul>
             <li>
                 Check sprinklers for proper operation and agreed seasonal timing and run time
@@ -117,34 +111,24 @@
                 Mail forwarding for mail collected during a Service visit
             </li>
             <li>
-                <span class="semi-bold">ADDITIONAL SERVICES</span> &mdash; If you do not see what you are looking for, please ask! We will do our best to accommodate your needs where possible.
-            </li>
-        </ul>
-    </div>
-    <div class="copy-wrapper max-width">
-        <h3 class="center">
-            CONCIERGE SERVICES*
-        </h3>
-        <ul>
-            <li>
-                <span class="semi-bold">PRE-ARRIVAL SHOPPING</span> &mdash; Arrange for a hot meal or let us pick up your groceries, beverages, and other necessities needed for your return
+                Arrange for a hot meal or let us pick up your groceries, beverages, and other necessities needed for your return
             </li>
             <li>
-                <span class="semi-bold">HOME CLOSE DOWN</span> &mdash; After departure of owner or guests
+                Light housekeeping prior to your arrival home
             </li>
             <li>
-                <span class="semi-bold">MEET SERVICE PROVIDERS</span> &mdash; Contractors, Utilities, Installers, Exterminators, Repairmen
+                Meet Service Providers&mdash;Contractors, Utilities, Installers, Exterminators, Repairmen
             </li>
             <li>
-                <span class="semi-bold">RECEIVE DELIVERIES</span> &mdash; We safely secure items post-delivery in your home ready for your return
+                We can safely secure items post&ndash;delivery in your home ready for your return
             </li>
             <li>
-                <span class="semi-bold">POST STORM RESPONSE</span> &mdash; This service is a post storm inspection to check for visible damage from storms, driving rains, floods, hail, or high winds. A complete report will be forwarded to you identifying the urgency of the situation and recommended repairs.
+                Post storm inspection to check for visible damage from storms, driving rains, floods, hail, or high winds.  A complete report will be forwarded to you identifying the urgency of the situation and recommended repairs.
             </li>
         </ul>
         <div class="footnote-wrapper">
             <p>
-                *Additional fees apply
+                If you do not see what you are looking for, please ask! We will do our best to accommodate your needs where possible.
             </p>
         </div>
     </div>

@@ -1,23 +1,56 @@
 .call-out-wrapper {
-    width: 75%;
+    width: 65%;
     max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    &.sm-wrapper {
+        width: 50%;
+    }
     p {
-        //font-size: 1.25rem;
         font-family: $italic;
         color: $darkGrey;
         text-align: center;
+        &.lg-font {
+            font-size: 18px;
+            padding: 0 20px;
+        }
+    }
+    .flex-list-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        padding: 5px 20px 20px;
+        &.three-col {
+            .flex-list-item {
+                flex: 0 0 32%;
+            }
+        }
+        &.two-col {
+            padding: 5px 20px 0;
+            .flex-list-item {
+                flex: 0 0 49%;
+            }
+        }
+        .flex-list-item {
+            display: table-cell;
+            text-align: left;
+            &:before {
+                content:"•";
+                font-size: 18px;
+                line-height: 1;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+        }
     }
 }
 .cta-wrapper {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     margin-top: 20px;
     box-sizing: border-box;
-    @media(max-width: $mobile){
-        padding: 20px 0 0;
-    }
     .flex-wrapper {
         max-width: 100%;
         width: 80%;
@@ -27,8 +60,7 @@
         justify-content: space-between;
         align-content: center;
         align-items: center;
-        padding: 20px;
-        background-color: $lightestGrey;
+        padding: 0 20px;
         box-sizing: border-box;
         @media(max-width: $mobile){
             width: 100%;
@@ -48,7 +80,7 @@
             }
         }
         .btn-wrapper {
-            padding: 10px 0;
+            padding: 0;
             text-align: center;
             flex: 0 0 100%;
             a {
@@ -78,6 +110,42 @@
                     box-shadow: inset 4px 4px 0 0 $red;
                     transform: translateY(4px) translateX(2px);
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: $mobile){
+    .call-out-wrapper {
+        width: 85%;
+        &.sm-wrapper {
+            width: 75%;
+        }
+    }
+}
+
+@media(max-width: 550px){
+    .call-out-wrapper {
+        width: 100%;
+        &.sm-wrapper {
+            width: 100%;
+        }
+        .flex-list-wrapper {
+            &.three-col {
+                .flex-list-item {
+                    flex: 0 0 100%;
+                }
+            }
+            &.two-col {
+                .flex-list-item {
+                    flex: 0 0 100%;
+                }
+            }
+            .flex-list-item {
+                text-align: center;
+                &:before {
+                    content: none;
                 }
             }
         }

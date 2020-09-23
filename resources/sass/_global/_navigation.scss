@@ -96,7 +96,7 @@ nav {
                         align-content: center;
                         align-items: center;
                         font-size: 1.25rem;
-                        color: $lightGrey;
+                        color: $darkGrey;
                         transition: 0.25s all ease-in-out;
                         padding-bottom: 20px;
                         &:hover {
@@ -111,7 +111,7 @@ nav {
                             padding-right: 5px;
                             path {
                                 transition: 0.25s all ease-in-out;
-                                fill: $lightGrey;
+                                fill: $darkGrey;
                             }
                         }
                     }

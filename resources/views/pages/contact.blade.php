@@ -91,13 +91,15 @@
                     Preferred method of contact
                 </p>
                 <label class="checkbox-wrapper">
-                    <input class="checks" type="checkbox" name="email1" id="email1" data-check-id="1" data-check-name="email" aria-label="Preferred
-                     Method of Contact: Email">
+                    <input class="checks" type="radio" name="contactmethod" id="email1" data-check-id="1" data-check-name="email"
+                           aria-label="Preferred
+                     Method of Contact: Email" value="email">
                     Email
                 </label>
                 <label class="checkbox-wrapper">
-                    <input class="checks" type="checkbox" name="phone1" id="phone1" data-check-id="2" data-check-name="phone" aria-label="Preferred
-                     Method of Contact: Phone">
+                    <input class="checks" type="radio" name="contactmethod" id="phone1" data-check-id="2" data-check-name="phone"
+                           aria-label="Preferred
+                     Method of Contact: Phone" value="phone">
                     Phone
                 </label>
             </div>

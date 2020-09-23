@@ -45,9 +45,6 @@
                 New Jersey Home Watch
             </p>
             <p class="no-padding-bottom">
-                PO Box 333
-            </p>
-            <p class="no-padding-bottom">
                 Howell, NJ 07731
             </p>
             <p class="no-padding-bottom">

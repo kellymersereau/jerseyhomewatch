@@ -14,3 +14,4 @@ yarn-error.log
 .styleci.yml
 .editorconfig
 .DS_Store
+sendgrid.env

@@ -23,26 +23,106 @@
             Home Watch is defined as a visual inspection of a home or property, looking for obvious issues. 
         </p>
     </div>
-    <div class="call-out-wrapper">
-        <p class="bold-italic">
-            New Jersey Home Watch
+    <div class="call-out-wrapper sm-wrapper">
+        <p class="bold-italic lg-font">
+            Proudly providing service to:
         </p>
-        <p>
-            providing service to Monmouth, Ocean and Middlesex Counties New Jersey.
-        </p>
+        <div class="flex-list-wrapper three-col">
+            <p class="flex-list-item">
+                Farmingdale
+            </p>
+            <p class="flex-list-item">
+                Freehold
+            </p>
+            <p class="flex-list-item">
+                Howell
+            </p>
+            <p class="flex-list-item">
+                Jackson
+            </p>
+            <p class="flex-list-item">
+                Lakewood
+            </p>
+            <p class="flex-list-item">
+                Manalapan
+            </p>
+            <p class="flex-list-item">
+                Marlboro
+            </p>
+            <p class="flex-list-item">
+                Monroe
+            </p>
+            <p class="flex-list-item">
+                Wall
+            </p>
+        </div>
     </div>
-    
+    <div class="call-out-wrapper">
+        <p class="bold-italic lg-font">
+            Specializing in YOUR 55+ community:
+        </p>
+        <div class="flex-list-wrapper two-col">
+            <p class="flex-list-item">
+                Covered Bridge
+            </p>
+            <p class="flex-list-item">
+                Equestra
+            </p>
+            <p class="flex-list-item">
+                Fairways
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Lakewood
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Manalapan
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Metedeconk
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Monmouth Woods
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Monroe
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ South Knoll
+            </p>
+            <p class="flex-list-item">
+                Four Seasons @ Wall
+            </p>
+            <p class="flex-list-item">
+                Greenbriar Marlboro
+            </p>
+            <p class="flex-list-item">
+                Jumping Brook
+            </p>
+            <p class="flex-list-item">
+                Pine View Estates
+            </p>
+            <p class="flex-list-item">
+                Renaissance @ Manalapan
+            </p>
+            <p class="flex-list-item">
+                Riviera @ Freehold
+            </p>
+            <p class="flex-list-item">
+                Stonebridge & The Ponds
+            </p>
+            <p class="flex-list-item">
+                Village Grande @ Battleground
+            </p>
+            <p class="flex-list-item">
+                Westlake
+            </p>
+        </div>
+    </div>
     <div class="cta-wrapper">
         <div class="flex-wrapper">
-            <p class="headline">
-                Learn more about our services
-            </p>
-            <p>
-                Our services consist of a 20-point service checklist offered weekly, bi-weekly or monthly.  After each inspection, a detailed report will be sent to you displaying the condition of your property and date/time of the inspection.  In addition to our standard services package, we also offer tailored and concierge services.
-            </p>
             <div class="btn-wrapper">
                 <a href="/services" title="Services">
-                    More Information
+                    Learn More About Our Services
                 </a>
             </div>
         </div>

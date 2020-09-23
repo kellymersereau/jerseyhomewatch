@@ -19489,9 +19489,9 @@ contactForm = {
       console.log($data);
       $('body').addClass('form-complete');
       contactForm.showFormSuccessCopy();
-    }).fail(function ($data) {// console.warn($data);
-      // console.log('error');
-      // $('body').addClass('form-error');
+    }).fail(function ($data) {
+      console.warn($data);
+      console.log('error'); // $('body').addClass('form-error');
       // $("html, body").animate({ scrollTop: '380px' }, "slow");
     });
   },
