@@ -116,6 +116,15 @@
             <p class="flex-list-item">
                 Westlake
             </p>
+            <p class="flex-list-item">
+                Regency at Monroe
+            </p>
+            <p class="flex-list-item">
+                Renaissance at Monroe
+            </p>
+            <p class="flex-list-item">
+                Renaissance-Cranbury Crossing
+            </p>
         </div>
     </div>
     <div class="cta-wrapper">
