@@ -126,7 +126,12 @@
                 Renaissance-Cranbury Crossing
             </p>
         </div>
+        
+        <div class="img-wrapper full-width">
+            <img src="/img/licensed-interior1.jpg">
+        </div>
     </div>
+    
     <div class="cta-wrapper">
         <div class="flex-wrapper">
             <div class="btn-wrapper">

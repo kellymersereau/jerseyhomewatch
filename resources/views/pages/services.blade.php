@@ -82,7 +82,7 @@
     </div>
     <div class="copy-wrapper max-width padding-bottom">
     
-        <img src="/img/INTERIOR4.jpg" class="float-left" height="281" width="500">
+        <img src="/img/licensed-interior2.jpg" class="float-left" height="281" width="500">
     
         <p class="padding-bottom">
             We offer and highly recommend 2 to 4 inspections per month. Too many things can happen in thirty days and will only compound an issue
@@ -130,6 +130,9 @@
             <p>
                 If you do not see what you are looking for, please ask! We will do our best to accommodate your needs where possible.
             </p>
+        </div>
+        <div class="img-wrapper full-width">
+            <img src="/img/licensed-house2.jpg">
         </div>
     </div>
 @endsection

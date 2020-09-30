@@ -24,6 +24,9 @@
             Willie brings over 40 years of experience in renovations, troubleshooting and repairs, building maintenance, and project management to
             their business. Having worked for many years as a hands-on, skilled building engineer and property manager, he has expertise in not only identifying issues, but expertly resolving problems quickly and efficiently. As a portfolio manager of commercial properties for the last 20 years, Willie has managed several multi-million-dollar projects in the NYC and the Tri-state area. His experience and integrity help assure their clients that their homes are being faithfully looked after by an experienced professional while they are away. Willie is also an active volunteer firefighter in Freehold, NJ.
         </p>
+        <div class="img-wrapper med-width">
+            <img src="/img/licensed-welcome-home.jpg">
+        </div>
     </div>
     
 @endsection

@@ -112,4 +112,11 @@ a {
 .float-left {
     float: left;
     padding-right: 20px;
+    @media(max-width: 768px){
+        float: none;
+        padding-right: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
 }
