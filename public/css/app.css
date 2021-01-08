@@ -814,6 +814,11 @@ footer .dev-signoff p a:hover {
   width: 50%;
 }
 
+.call-out-wrapper.full-width {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .call-out-wrapper p {
   font-family: "OpenSans-Italic", sans-serif;
   color: #383838;

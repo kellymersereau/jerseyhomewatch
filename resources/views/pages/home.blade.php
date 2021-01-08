@@ -23,8 +23,8 @@
             Home Watch is defined as a visual inspection of a home or property, looking for obvious issues. 
         </p>
     </div>
-    <div class="call-out-wrapper sm-wrapper">
-        <p class="bold-italic lg-font">
+    <div class="call-out-wrapper full-width">
+        <p class="bold lg-font">
             Proudly providing service to Monmouth, Middlesex and Ocean Counties.
         </p>
     </div>
