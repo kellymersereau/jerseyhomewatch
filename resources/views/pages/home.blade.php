@@ -25,37 +25,8 @@
     </div>
     <div class="call-out-wrapper sm-wrapper">
         <p class="bold-italic lg-font">
-            Proudly providing service to:
+            Proudly providing service to Monmouth, Middlesex and Ocean Counties.
         </p>
-        <div class="flex-list-wrapper three-col">
-            <p class="flex-list-item">
-                Farmingdale
-            </p>
-            <p class="flex-list-item">
-                Freehold
-            </p>
-            <p class="flex-list-item">
-                Howell
-            </p>
-            <p class="flex-list-item">
-                Jackson
-            </p>
-            <p class="flex-list-item">
-                Lakewood
-            </p>
-            <p class="flex-list-item">
-                Manalapan
-            </p>
-            <p class="flex-list-item">
-                Marlboro
-            </p>
-            <p class="flex-list-item">
-                Monroe
-            </p>
-            <p class="flex-list-item">
-                Wall
-            </p>
-        </div>
     </div>
     <div class="call-out-wrapper">
         <p class="bold-italic lg-font">
