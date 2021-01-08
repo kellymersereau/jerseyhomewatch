@@ -13,7 +13,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "home";
-        $canonicalUrl = "https://www.jerseyhomewatch.co";
+        $canonicalUrl = "https://www.jerseyhomewatch.com";
         $home_active = true;
         $full_width = true;
         
@@ -34,7 +34,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "services";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/services";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/services";
         $services_active = true;
         $full_width = true;
         
@@ -55,7 +55,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "testimonials";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/testimonials";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/testimonials";
         $testimonials_active = true;
         
         return view('pages.testimonials', [
@@ -74,7 +74,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "faq";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/faq";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/faq";
         $faq_active = true;
         
         return view('pages.faq', [
@@ -93,7 +93,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "about";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/about";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/about";
         $about_active = true;
         
         return view('pages.about', [
@@ -112,7 +112,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "contact";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/contact";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/contact";
         $contact_active = true;
         $states = [
             ['state'=>'Alabama', 'val'=>'AL'],
@@ -185,7 +185,7 @@ class PagesController extends Controller
         $seo_description = "";
         $seo_keywords = "";
         $body_class = "home";
-        $canonicalUrl = "https://www.jerseyhomewatch.co/privacy-policy";
+        $canonicalUrl = "https://www.jerseyhomewatch.com/privacy-policy";
         
         return view('pages.privacy', [
             'title'=>$title,
