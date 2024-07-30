@@ -7,7 +7,7 @@
         </h1>
     </div>
     <div class="copy-wrapper">
-        <img src="/img/about-photo.jpg" title="Image of Jackie and Willie Mersereau" class="float-left" height="255" width="320">
+        <img src="/img/about-photo.jpg" title="Image of Jackie and Willie Mersereau" class="float-left" height="399" width="320">
         <p class="padding-bottom">
             <span class="bold">New Jersey Home Watch</span> is a family owned company.  We are committed to operating our business following the NHWA code of ethics.
         </p>

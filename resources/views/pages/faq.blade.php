@@ -49,7 +49,7 @@
             Why New Jersey Home Watch?
         </h3>
         <p class="more-padding-bottom">
-            We are fully licensed, insured and bonded. We are also Accredited Members of the National Home Watch Association. We will care for you home so you can have peace of mind while you are away.
+            We are fully licensed, insured and bonded. We will care for you home so you can have peace of mind while you are away.
         </p>
     
         <h3 class="less-padding-bottom">

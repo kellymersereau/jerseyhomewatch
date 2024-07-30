@@ -61,9 +61,6 @@
             <a href="/" title="Home" class="home-link">
                 <img src="/img/logo.jpg" title="New Jersey Home Watch logo" width="300">
             </a>
-            <a href="https://www.nationalhomewatchassociation.org" target="_blank">
-                <img src="http://www.nationalhomewatchassociation.org/logos/nhwa-member-medium.png" border="0">
-            </a>
         </div>
     </div>
     <div class="dev-signoff">
